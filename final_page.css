@@ -1,0 +1,152 @@
+@media all and (max-width: 2000px) {
+    body {
+        background-image: url("pics/wall.webp");
+        background-size: 50%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .wall {
+        width: 42%;
+        position: absolute;
+        left: 28%;
+        top: 5%;
+        z-index: 1;
+        filter: drop-shadow(10px 30px 30px #000000);
+    }
+    button{
+        cursor: pointer;
+    }
+
+    .board {
+        width: 31%;
+        position: absolute;
+        left: 33%;
+        top: 18%;
+        z-index: 2;
+        box-shadow:  inset 19px 20px 60px 3px #000000;
+    }
+    .text {
+        width: 31%;
+        position: absolute;
+        left: 39%;
+        top: 35%;
+        z-index: 3;
+    }
+
+    #certificate {
+        display: block;
+    }
+    
+    #playAgain {
+        color: rgb(96, 47, 14);
+        border: none;
+        background-color: transparent;
+        font-size: 30px;
+        position: absolute;
+        left: 27%;
+        top: 175%;
+        z-index: 3;
+    }
+
+    #headline {
+        display: block;
+        color: rgb(142, 11, 11);
+    }
+    #message {
+        display: block;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #headline1 {
+        display: none;
+    }
+    #message1 {
+        display: none;
+    }
+    #certificate1 {
+        display: none;
+    }
+}
+
+@media all and (max-width: 800px) {
+    body {
+        background-image: url("pics/wall.webp");
+        background-size: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .wall {
+        width: 94%;
+        position: absolute;
+        left: 3.5%;
+        top: 22%;
+        z-index: 1;
+        filter: drop-shadow(10px 30px 30px #000000);
+    }
+
+    .board {
+        width: 66%;
+        position: absolute;
+        left: 16%;
+        top: 30%;
+        z-index: 2;
+        box-shadow:  inset 19px 20px 60px -10px #000000;
+    }
+    .text {
+        width: 28%;
+        position: absolute;
+        left: 25%;
+        top: 35%;
+        z-index: 3;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    #playAgain {
+        color: rgb(96, 47, 14);
+        border: none;
+        background-color: transparent;
+        font-size: 30px;
+        position: absolute;
+        left: 65%;
+        top: 120%;
+        z-index: 3;
+    }
+
+    #headline1 {
+        display: block;
+        width: 100%;
+        font-size: 18px;
+        color: rgb(142, 11, 11);
+    }
+    #message1 {
+        display: block;
+        width: 200%;
+        font-size: 12px;
+        margin-left: 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #certificate1 {
+        display: block;
+        width: 150px;
+        margin-top: 30px;
+        margin-left: 15px;
+        border-radius: 10px;
+        color: rgb(107, 29, 8);
+        background-color: rgb(209, 168, 138);
+        padding: 10px;
+    }
+
+    #headline {
+        display: none;
+    }
+    #message {
+        display: none;
+    }
+    #certificate {
+        display: none;
+    }
+}

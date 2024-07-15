@@ -1,0 +1,180 @@
+@media all and (max-width: 2000px) {
+ body {
+        background-image: url("pics/wall.webp");
+        background-size: 50%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .wall {
+        width: 42%;
+        position: absolute;
+        left: 28%;
+        top: 5%;
+        z-index: 1;
+        filter: drop-shadow(10px 30px 30px #000000);
+    }
+
+    .board {
+        width: 31%;
+        position: absolute;
+        left: 33%;
+        top: 18%;
+        z-index: 2;
+        box-shadow:  inset 19px 20px 60px 3px #000000;
+    }
+    .text {
+        width: 31%;
+        position: absolute;
+        left: 39%;
+        top: 35%;
+        z-index: 3;
+    }
+
+    button {
+    cursor: pointer;
+    }
+
+    #popUp {
+        display: none;
+        width: 51%;
+        position: absolute;
+        left: 25%;
+        top: 8%;
+        z-index: 5;
+        filter: drop-shadow(10px 30px 30px #000000);
+    }
+
+    #continue {
+        display: none;
+        font-size: 20px;
+        cursor: pointer;
+        position: absolute;
+        top: 80%;
+        left: 80%;
+        width: 10%;
+        color: rgb(239, 223, 207);
+        background-color: rgb(135, 78, 37);
+        border: none;
+        padding: 10px;
+    }
+    input{
+        border-color: rgb(167, 44, 17);
+        background-color: rgb(247, 233, 226);
+    }
+    label{
+        color: rgb(107, 15, 8);
+    }
+    select{
+        background-color: rgb(247, 233, 226);
+    }
+    form button {
+        margin-left: 85px;
+        margin-top: 20px;
+        padding: 7px;
+        width: 80px;
+        border-radius: 20%;
+        border: none;
+        background-color: rgb(114, 30, 30) ;
+        color: rgb(231, 189, 172);
+    }
+    h2{
+        margin-top:-20px;
+        margin-left: 25px;
+        margin-bottom: 50px;
+        color: rgb(152, 84, 84);
+    }
+}
+
+
+@media all and (max-width: 800px) {
+    body {
+        background-image: url("pics/wall.webp");
+        background-size: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .wall {
+        width: 94%;
+        position: absolute;
+        left: 3.5%;
+        top: 22%;
+        z-index: 1;
+        filter: drop-shadow(10px 30px 30px #000000);
+    }
+
+    .board {
+        width: 66%;
+        position: absolute;
+        left: 16%;
+        top: 30%;
+        z-index: 2;
+        box-shadow:  inset 19px 20px 60px -10px #000000;
+    }
+    .text {
+        width: 28%;
+        position: absolute;
+        left: 30%;
+        top: 35%;
+        z-index: 3;
+    }
+    button {
+        cursor: pointer;
+    }
+    #popUp {
+        display: none;
+        width: 95%;
+        position: absolute;
+        left: 3%;
+        top: 25%;
+        z-index: 5;
+        filter: drop-shadow(10px 30px 30px #000000);
+    }
+
+    #continue {
+        display: none;
+        font-size: 15px;
+        cursor: pointer;
+        position: absolute;
+        top: 70%;
+        left: 60%;
+        width: 30%;
+        border-radius: 10px;
+        color: rgb(239, 223, 207);
+        background-color: rgb(135, 78, 37);
+        border: none;
+        padding: 10px;
+    }
+    input{
+        border-color: rgb(167, 44, 17);
+        background-color: rgb(247, 233, 226);
+        margin-left: -10px;
+    }
+    label{
+        color: rgb(107, 15, 8);
+        font-size:12px;
+        margin-left: -10px;
+    }
+    select{
+        margin-left: -10px;
+        background-color: rgb(247, 233, 226);
+    }
+    form button {
+        margin-left: 35px;
+        margin-top: 10px;
+        padding: 7px;
+        width: 80px;
+        border-radius: 20%;
+        border: none;
+        background-color: rgb(114, 30, 30) ;
+        color: rgb(231, 189, 172);
+    }
+    h2{
+        margin-top:-10px;
+        margin-left: -25px;
+        margin-bottom: 20px;
+        width: 200%;
+        color: rgb(152, 84, 84);
+    }
+}
