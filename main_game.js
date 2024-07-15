@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 
-    function catchSound(url, playbackRate = 1.5) {
+    function catchSound(url, playbackRate = 2) {
         var sound = new Audio();
         sound.src = url;
         sound.preload = 'auto';
