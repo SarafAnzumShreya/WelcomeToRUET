@@ -151,7 +151,8 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             if (itemLeft >= catcher.offsetLeft - 80 &&
                 itemLeft <= catcher.offsetLeft + 25 && 
-                itemTop >= catcher.offsetTop - 30){
+                itemTop >= catcher.offsetTop - 30  &&
+                itemTop <= catcher.offsetTop + 50 ){
                 itemsCaught++;
                 catchSound('catch.mp3');
                 totalDisplay.innerText = `Total Courses Taken: ${itemsCaught}`;
