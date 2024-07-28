@@ -141,5 +141,5 @@ document.getElementById('certificate1').addEventListener('click', () => {
 
 
 document.getElementById('playAgain').addEventListener('click', () => {
- window.location.href = `front_page.html`;
+ window.location.href = `index.html`;
 });
